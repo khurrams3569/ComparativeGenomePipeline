@@ -1,74 +1,45 @@
 #!/bin/bash
-#SBATCH --job-name=mcscanx
+#SBATCH --job-name=MCScanX
+#SBATCH --partition=nocona
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
-#SBATCH --cpus-per-task=64
-#SBATCH --mem=128G
-#SBATCH --time=48:00:00
-#SBATCH --partition=nocona
-#SBATCH --output=logs/mcscanx/mcscanx_%j.out
-#SBATCH --error=logs/mcscanx/mcscanx_%j.err
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=60G
+#SBATCH --time=12:00:00
+#SBATCH --output=logs/mcscanx_%j.out
+#SBATCH --error=logs/mcscanx_%j.err
+
+set -e
+
+cd $SLURM_SUBMIT_DIR
+
+source ~/miniconda3/etc/profile.d/conda.sh
+conda activate synteny
 
 source config/config.sh
 
-module load mcscanx 2>/dev/null || true
-
-echo "Running MCScanX engine..."
-
 mkdir -p results/mcscanx/output
 
-########################################
-# STEP 1: SELF ANALYSIS
-########################################
+############################################
+# Combine GFF files
+############################################
 
-for g in "${GENOMES[@]}"; do
+cat results/mcscanx/input/*.gff \
+> results/mcscanx/output/Chlorella.gff
 
-    echo "SELF synteny: $g"
+############################################
+# Combine BLAST files
+############################################
 
-    cp results/mcscanx/input/${g}.gff results/mcscanx/input.txt
-    cp results/blast/pairwise/${g}_vs_${g}.blast results/mcscanx/input.blast
+cat results/blast/all_vs_all/*.blast \
+> results/mcscanx/output/Chlorella.blast
 
-    cd results/mcscanx
+############################################
+# Run MCScanX
+############################################
 
-    $MCSCANX input.txt input.blast
+cd results/mcscanx/output
 
-    mv *.collinearity output/${g}_self.collinearity
+$MCSCANX Chlorella
 
-    cd ../..
-
-done
-
-########################################
-# STEP 2: PAIRWISE ANALYSIS
-########################################
-
-PAIRS=(
-"utex2526 utex395"
-"utex2526 utexb3016"
-"utex395 utexb3016"
-)
-
-for pair in "${PAIRS[@]}"; do
-
-    set -- $pair
-    g1=$1
-    g2=$2
-
-    echo "PAIRWISE: $g1 vs $g2"
-
-    cat results/mcscanx/input/${g1}.gff results/mcscanx/input/${g2}.gff \
-        > results/mcscanx/input.txt
-
-    cp results/blast/pairwise/${g1}_vs_${g2}.blast results/mcscanx/input.blast
-
-    cd results/mcscanx
-
-    $MCSCANX input.txt input.blast
-
-    mv *.collinearity output/${g1}_vs_${g2}.collinearity
-
-    cd ../..
-
-done
-
-echo "MCScanX completed ✔"
+echo "MCScanX completed."

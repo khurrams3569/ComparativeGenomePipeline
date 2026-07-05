@@ -1,13 +1,13 @@
 #!/bin/bash
-#SBATCH --job-name=PrepMCScanX
+#SBATCH --job-name=PrepareMCScanX
 #SBATCH --partition=nocona
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=10G
 #SBATCH --time=02:00:00
-#SBATCH --output=logs/prep_%j.out
-#SBATCH --error=logs/prep_%j.err
+#SBATCH --output=logs/prepare_mcscanx_%j.out
+#SBATCH --error=logs/prepare_mcscanx_%j.err
 
 set -e
 
@@ -23,13 +23,14 @@ mkdir -p results/mcscanx/input
 for g in "${GENOMES[@]}"
 do
 
-awk '$3=="gene"{
+awk '
+$3=="gene"{
 match($9,/ID=([^;]+)/,a)
-print a[1]"\t"$1"\t"$4
-}' \
-${GFF_DIR}/${g}.gff3 \
+print $1"\t"a[1]".t1\t"$4
+}
+' ${GFF_DIR}/${g}.gff3 \
 > results/mcscanx/input/${g}.gff
 
 done
 
-echo "MCScanX input files created."
+echo "MCScanX GFF files generated successfully."

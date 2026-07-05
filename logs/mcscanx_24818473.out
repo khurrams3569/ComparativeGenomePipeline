@@ -1,0 +1,37 @@
+Config loaded for project: Chlorella
+Reading BLAST file and pre-processing
+Generating BLAST list
+0 matches imported (795084 discarded)
+0 pairwise comparisons
+0 alignments generated
+Pairwise collinear blocks written to Chlorella.collinearity [2.778 seconds elapsed]
+Writing multiple syntenic blocks to HTML files
+utex2526_scaffold_11_g68.html
+utex2526_scaffold_26_g489.html
+utex2526_scaffold_27_g694.html
+utex2526_scaffold_6_g211.html
+utex395_scaffold_23_g440.html
+utex395_scaffold_24_g877.html
+utex395_scaffold_25_g1427.html
+utex395_scaffold_2_g530.html
+utex395_scaffold_4_g594.html
+utexb3016_scaffold_10_g806.html
+utexb3016_scaffold_12_g787.html
+utexb3016_scaffold_13_g293.html
+utexb3016_scaffold_14_g226.html
+utexb3016_scaffold_15_g780.html
+utexb3016_scaffold_16_g996.html
+utexb3016_scaffold_17_g970.html
+utexb3016_scaffold_18_g904.html
+utexb3016_scaffold_19_g2970.html
+utexb3016_scaffold_1_g54.html
+utexb3016_scaffold_20_g1540.html
+utexb3016_scaffold_21_g1433.html
+utexb3016_scaffold_22_g1513.html
+utexb3016_scaffold_3_g9.html
+utexb3016_scaffold_5_g89.html
+utexb3016_scaffold_7_g452.html
+utexb3016_scaffold_8_g482.html
+utexb3016_scaffold_9_g656.html
+Done! [0.022 seconds elapsed]
+MCScanX completed.

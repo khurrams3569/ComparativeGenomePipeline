@@ -1,27 +1,26 @@
 #!/bin/bash
-#SBATCH --job-name=mcscanx_dup
+#SBATCH --job-name=DupClass
+#SBATCH --partition=nocona
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
-#SBATCH --cpus-per-task=64
-#SBATCH --mem=128G
-#SBATCH --time=48:00:00
-#SBATCH --partition=nocona
-#SBATCH --output=logs/mcscanx/dup_%j.out
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=20G
+#SBATCH --time=02:00:00
+#SBATCH --output=logs/duplication_%j.out
+#SBATCH --error=logs/duplication_%j.err
+
+set -e
+
+cd $SLURM_SUBMIT_DIR
+
+source ~/miniconda3/etc/profile.d/conda.sh
+conda activate synteny
 
 source config/config.sh
 
-module load mcscanx 2>/dev/null || true
-
-echo "Running duplication analysis..."
-
 cd results/mcscanx/output
 
-for file in *.collinearity; do
+/home/khshahza/MCScanX/duplicate_gene_classifier \
+Chlorella
 
-    base=$(basename $file .collinearity)
-
-    $MCSCANX $base
-
-done
-
-echo "Duplication analysis done ✔"
+echo "Duplication classification finished."
