@@ -1,0 +1,22 @@
+{
+  "version": "1.2",
+  "dbname": "utex2526",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "/home/khshahza/GitHub/ComparativeGenomePipeline/data/proteins/utex2526.faa",
+  "number-of-letters": 4551215,
+  "number-of-sequences": 9267,
+  "last-updated": "2026-07-05T14:35:00",
+  "number-of-volumes": 1,
+  "bytes-total": 5666637,
+  "bytes-to-cache": 4634779,
+  "files": [
+    "utex2526.pdb",
+    "utex2526.phr",
+    "utex2526.pin",
+    "utex2526.pot",
+    "utex2526.psq",
+    "utex2526.ptf",
+    "utex2526.pto"
+  ]
+}
