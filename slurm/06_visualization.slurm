@@ -1,19 +1,58 @@
 #!/bin/bash
-#SBATCH --job-name=vis_pipeline
+#SBATCH --job-name=Visualization
+#SBATCH --partition=nocona
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
-#SBATCH --cpus-per-task=64
-#SBATCH --mem=128G
-#SBATCH --time=48:00:00
-#SBATCH --partition=nocona
-#SBATCH --output=logs/visualization/master_%j.out
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=32G
+#SBATCH --time=12:00:00
+#SBATCH --output=logs/visualization_%j.out
+#SBATCH --error=logs/visualization_%j.err
 
-echo "Starting visualization pipeline..."
+set -e
 
-sbatch slurm/visualization/01_dotplot.slurm
+cd $SLURM_SUBMIT_DIR
 
-bash scripts/visualization/02_summary.py
+source ~/miniconda3/etc/profile.d/conda.sh
+conda activate vis_env
 
-bash scripts/visualization/03_circos_prep.sh
+mkdir -p results/figures
+mkdir -p results/figures/dotplots
+mkdir -p results/figures/circos
+mkdir -p results/figures/heatmaps
+mkdir -p results/figures/summaries
 
-echo "Visualization pipeline submitted ✔"
+echo "===================================="
+echo "Generating figures"
+echo "===================================="
+
+##################################################
+# Dotplots
+##################################################
+
+if [ -f scripts/visualization/01_dotplot.py ]; then
+
+    for file in results/mcscanx/combined/*.collinearity \
+                results/mcscanx/self/*/*.collinearity \
+                results/mcscanx/pairwise/*/*.collinearity
+    do
+
+        [ -f "$file" ] || continue
+
+        python scripts/visualization/01_dotplot.py "$file"
+
+    done
+
+fi
+
+##################################################
+# Circos preparation
+##################################################
+
+if [ -f scripts/visualization/03_circos_prep.sh ]; then
+
+    bash scripts/visualization/03_circos_prep.sh
+
+fi
+
+echo "Visualization completed."

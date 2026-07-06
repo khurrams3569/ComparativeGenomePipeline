@@ -1,0 +1,38 @@
+Config loaded for project: Chlorella
+Reading BLAST file and pre-processing
+Generating BLAST list
+270235 matches imported (524849 discarded)
+378 pairwise comparisons
+769 alignments generated
+Pairwise collinear blocks written to combined.collinearity [8.592 seconds elapsed]
+Tandem pairs written to combined.tandem
+Writing multiple syntenic blocks to HTML files
+scaffold_1.html
+scaffold_10.html
+scaffold_11.html
+scaffold_12.html
+scaffold_13.html
+scaffold_14.html
+scaffold_15.html
+scaffold_16.html
+scaffold_17.html
+scaffold_18.html
+scaffold_19.html
+scaffold_2.html
+scaffold_20.html
+scaffold_21.html
+scaffold_22.html
+scaffold_23.html
+scaffold_24.html
+scaffold_25.html
+scaffold_26.html
+scaffold_27.html
+scaffold_3.html
+scaffold_4.html
+scaffold_5.html
+scaffold_6.html
+scaffold_7.html
+scaffold_8.html
+scaffold_9.html
+Done! [0.534 seconds elapsed]
+Combined analysis done

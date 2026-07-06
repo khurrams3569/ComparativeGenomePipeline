@@ -1,0 +1,94 @@
+Config loaded for project: Chlorella
+SELF: utex2526
+Reading BLAST file and pre-processing
+Generating BLAST list
+23766 matches imported (41851 discarded)
+301 pairwise comparisons
+12 alignments generated
+Pairwise collinear blocks written to utex2526.collinearity [0.518 seconds elapsed]
+Tandem pairs written to utex2526.tandem
+Writing multiple syntenic blocks to HTML files
+scaffold_1.html
+scaffold_10.html
+scaffold_11.html
+scaffold_12.html
+scaffold_13.html
+scaffold_14.html
+scaffold_15.html
+scaffold_16.html
+scaffold_17.html
+scaffold_18.html
+scaffold_19.html
+scaffold_2.html
+scaffold_20.html
+scaffold_21.html
+scaffold_22.html
+scaffold_23.html
+scaffold_24.html
+scaffold_25.html
+scaffold_26.html
+scaffold_27.html
+scaffold_3.html
+scaffold_4.html
+scaffold_5.html
+scaffold_6.html
+scaffold_7.html
+scaffold_8.html
+scaffold_9.html
+Done! [0.079 seconds elapsed]
+SELF: utex395
+Reading BLAST file and pre-processing
+Generating BLAST list
+25365 matches imported (54700 discarded)
+150 pairwise comparisons
+4 alignments generated
+Pairwise collinear blocks written to utex395.collinearity [0.517 seconds elapsed]
+Tandem pairs written to utex395.tandem
+Writing multiple syntenic blocks to HTML files
+scaffold_1.html
+scaffold_10.html
+scaffold_12.html
+scaffold_13.html
+scaffold_15.html
+scaffold_16.html
+scaffold_17.html
+scaffold_18.html
+scaffold_19.html
+scaffold_2.html
+scaffold_20.html
+scaffold_22.html
+scaffold_23.html
+scaffold_24.html
+scaffold_25.html
+scaffold_3.html
+scaffold_4.html
+Done! [0.062 seconds elapsed]
+SELF: utexb3016
+Reading BLAST file and pre-processing
+Generating BLAST list
+51699 matches imported (101644 discarded)
+162 pairwise comparisons
+14 alignments generated
+Pairwise collinear blocks written to utexb3016.collinearity [1.061 seconds elapsed]
+Tandem pairs written to utexb3016.tandem
+Writing multiple syntenic blocks to HTML files
+scaffold_1.html
+scaffold_10.html
+scaffold_12.html
+scaffold_13.html
+scaffold_14.html
+scaffold_15.html
+scaffold_16.html
+scaffold_17.html
+scaffold_18.html
+scaffold_19.html
+scaffold_20.html
+scaffold_21.html
+scaffold_22.html
+scaffold_3.html
+scaffold_5.html
+scaffold_7.html
+scaffold_8.html
+scaffold_9.html
+Done! [0.105 seconds elapsed]
+Self analyses done
