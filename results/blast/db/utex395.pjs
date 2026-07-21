@@ -1,0 +1,22 @@
+{
+  "version": "1.2",
+  "dbname": "utex395",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "/home/khshahza/GitHub/ComparativeGenomePipeline/data/proteins/utex395.faa",
+  "number-of-letters": 5159537,
+  "number-of-sequences": 10178,
+  "last-updated": "2026-07-05T14:35:00",
+  "number-of-volumes": 1,
+  "bytes-total": 6373581,
+  "bytes-to-cache": 5251292,
+  "files": [
+    "utex395.pdb",
+    "utex395.phr",
+    "utex395.pin",
+    "utex395.pot",
+    "utex395.psq",
+    "utex395.ptf",
+    "utex395.pto"
+  ]
+}

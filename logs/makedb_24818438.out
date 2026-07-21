@@ -1,0 +1,38 @@
+Config loaded for project: Chlorella
+Creating database for utex2526
+
+
+Building a new DB, current time: 07/05/2026 14:35:09
+New DB name:   /home/khshahza/GitHub/ComparativeGenomePipeline/results/blast/db/utex2526
+New DB title:  /home/khshahza/GitHub/ComparativeGenomePipeline/data/proteins/utex2526.faa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 3000000000B
+Adding sequences from FASTA; added 9267 sequences in 0.395072 seconds.
+
+
+Creating database for utex395
+
+
+Building a new DB, current time: 07/05/2026 14:35:10
+New DB name:   /home/khshahza/GitHub/ComparativeGenomePipeline/results/blast/db/utex395
+New DB title:  /home/khshahza/GitHub/ComparativeGenomePipeline/data/proteins/utex395.faa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 3000000000B
+Adding sequences from FASTA; added 10178 sequences in 0.277581 seconds.
+
+
+Creating database for utexb3016
+
+
+Building a new DB, current time: 07/05/2026 14:35:11
+New DB name:   /home/khshahza/GitHub/ComparativeGenomePipeline/results/blast/db/utexb3016
+New DB title:  /home/khshahza/GitHub/ComparativeGenomePipeline/data/proteins/utexb3016.faa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 3000000000B
+Adding sequences from FASTA; added 14960 sequences in 0.382315 seconds.
+
+
+Finished.

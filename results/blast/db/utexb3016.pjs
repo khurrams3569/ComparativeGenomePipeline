@@ -1,0 +1,22 @@
+{
+  "version": "1.2",
+  "dbname": "utexb3016",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "/home/khshahza/GitHub/ComparativeGenomePipeline/data/proteins/utexb3016.faa",
+  "number-of-letters": 6764812,
+  "number-of-sequences": 14960,
+  "last-updated": "2026-07-05T14:35:00",
+  "number-of-volumes": 1,
+  "bytes-total": 8566920,
+  "bytes-to-cache": 6899613,
+  "files": [
+    "utexb3016.pdb",
+    "utexb3016.phr",
+    "utexb3016.pin",
+    "utexb3016.pot",
+    "utexb3016.psq",
+    "utexb3016.ptf",
+    "utexb3016.pto"
+  ]
+}

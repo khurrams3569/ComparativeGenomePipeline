@@ -1,0 +1,13 @@
+Config loaded for project: Chlorella
+Reading BLAST file and pre-processing
+Generating BLAST list
+270235 matches imported (524849 discarded)
+378 pairwise comparisons
+769 alignments generated
+Type of dup	Code	Number
+Singleton	0	6438
+Dispersed	1	11013
+Proximal	2	1193
+Tandem	3	981
+WGD or segmental	4	14780
+Duplication classification finished.

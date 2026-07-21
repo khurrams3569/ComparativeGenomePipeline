@@ -1,0 +1,144 @@
+############### Parameters ###############
+# MATCH_SCORE: 50
+# MATCH_SIZE: 5
+# GAP_PENALTY: -1
+# OVERLAP_WINDOW: 5
+# E_VALUE: 1e-05
+# MAX GAPS: 25
+############### Statistics ###############
+# Number of collinear genes: 151, Percentage: 1.01
+# Number of all genes: 14960
+##########################################
+## Alignment 0: score=302.0 e_value=4.4e-06 N=8 scaffold_12&scaffold_14 minus
+  0-  0:	utexb3016_scaffold_12_g157.t1	utexb3016_scaffold_14_g169.t1	  2e-10
+  0-  1:	utexb3016_scaffold_12_g167.t1	utexb3016_scaffold_14_g151.t1	  1e-11
+  0-  2:	utexb3016_scaffold_12_g181.t1	utexb3016_scaffold_14_g146.t1	  1e-07
+  0-  3:	utexb3016_scaffold_12_g182.t1	utexb3016_scaffold_14_g142.t1	  2e-25
+  0-  4:	utexb3016_scaffold_12_g189.t1	utexb3016_scaffold_14_g138.t1	  1e-18
+  0-  5:	utexb3016_scaffold_12_g192.t1	utexb3016_scaffold_14_g117.t1	  3e-44
+  0-  6:	utexb3016_scaffold_12_g209.t1	utexb3016_scaffold_14_g95.t1	  3e-12
+  0-  7:	utexb3016_scaffold_12_g228.t1	utexb3016_scaffold_14_g77.t1	  8e-07
+## Alignment 1: score=366.0 e_value=1.5e-06 N=9 scaffold_14&scaffold_16 plus
+  1-  0:	utexb3016_scaffold_14_g124.t1	utexb3016_scaffold_16_g917.t1	  9e-06
+  1-  1:	utexb3016_scaffold_14_g138.t1	utexb3016_scaffold_16_g929.t1	  5e-22
+  1-  2:	utexb3016_scaffold_14_g142.t1	utexb3016_scaffold_16_g938.t1	  5e-11
+  1-  3:	utexb3016_scaffold_14_g143.t1	utexb3016_scaffold_16_g942.t1	  5e-09
+  1-  4:	utexb3016_scaffold_14_g144.t1	utexb3016_scaffold_16_g960.t1	  3e-06
+  1-  5:	utexb3016_scaffold_14_g149.t1	utexb3016_scaffold_16_g961.t1	  2e-10
+  1-  6:	utexb3016_scaffold_14_g166.t1	utexb3016_scaffold_16_g970.t1	  5e-21
+  1-  7:	utexb3016_scaffold_14_g176.t1	utexb3016_scaffold_16_g979.t1	  1e-10
+  1-  8:	utexb3016_scaffold_14_g178.t1	utexb3016_scaffold_16_g994.t1	  2e-07
+## Alignment 2: score=346.0 e_value=2.9e-06 N=10 scaffold_19&scaffold_19 minus
+  2-  0:	utexb3016_scaffold_19_g1362.t1	utexb3016_scaffold_19_g2106.t1	  5e-16
+  2-  1:	utexb3016_scaffold_19_g1367.t1	utexb3016_scaffold_19_g2087.t1	  7e-16
+  2-  2:	utexb3016_scaffold_19_g1381.t1	utexb3016_scaffold_19_g2074.t1	  5e-07
+  2-  3:	utexb3016_scaffold_19_g1384.t1	utexb3016_scaffold_19_g2064.t1	  2e-13
+  2-  4:	utexb3016_scaffold_19_g1406.t1	utexb3016_scaffold_19_g2041.t1	  7e-14
+  2-  5:	utexb3016_scaffold_19_g1415.t1	utexb3016_scaffold_19_g2021.t1	  4e-06
+  2-  6:	utexb3016_scaffold_19_g1438.t1	utexb3016_scaffold_19_g2017.t1	  2e-26
+  2-  7:	utexb3016_scaffold_19_g1450.t1	utexb3016_scaffold_19_g2003.t1	  2e-14
+  2-  8:	utexb3016_scaffold_19_g1466.t1	utexb3016_scaffold_19_g1982.t1	  1e-08
+  2-  9:	utexb3016_scaffold_19_g1474.t1	utexb3016_scaffold_19_g1963.t1	  6e-23
+## Alignment 3: score=319.0 e_value=9e-07 N=8 scaffold_19&scaffold_19 minus
+  3-  0:	utexb3016_scaffold_19_g397.t1	utexb3016_scaffold_19_g1002.t1	  1e-12
+  3-  1:	utexb3016_scaffold_19_g420.t1	utexb3016_scaffold_19_g990.t1	  6e-14
+  3-  2:	utexb3016_scaffold_19_g438.t1	utexb3016_scaffold_19_g986.t1	  4e-17
+  3-  3:	utexb3016_scaffold_19_g446.t1	utexb3016_scaffold_19_g980.t1	  7e-07
+  3-  4:	utexb3016_scaffold_19_g448.t1	utexb3016_scaffold_19_g975.t1	  2e-54
+  3-  5:	utexb3016_scaffold_19_g455.t1	utexb3016_scaffold_19_g950.t1	  1e-11
+  3-  6:	utexb3016_scaffold_19_g458.t1	utexb3016_scaffold_19_g948.t1	  2e-16
+  3-  7:	utexb3016_scaffold_19_g464.t1	utexb3016_scaffold_19_g943.t1	  1e-07
+## Alignment 4: score=303.0 e_value=3e-08 N=7 scaffold_19&scaffold_19 minus
+  4-  0:	utexb3016_scaffold_19_g570.t1	utexb3016_scaffold_19_g2394.t1	  2e-20
+  4-  1:	utexb3016_scaffold_19_g576.t1	utexb3016_scaffold_19_g2393.t1	  1e-30
+  4-  2:	utexb3016_scaffold_19_g592.t1	utexb3016_scaffold_19_g2378.t1	  1e-22
+  4-  3:	utexb3016_scaffold_19_g593.t1	utexb3016_scaffold_19_g2377.t1	  5e-12
+  4-  4:	utexb3016_scaffold_19_g608.t1	utexb3016_scaffold_19_g2375.t1	  2e-35
+  4-  5:	utexb3016_scaffold_19_g610.t1	utexb3016_scaffold_19_g2373.t1	  4e-32
+  4-  6:	utexb3016_scaffold_19_g623.t1	utexb3016_scaffold_19_g2360.t1	  3e-22
+## Alignment 5: score=275.0 e_value=3.4e-06 N=7 scaffold_19&scaffold_19 minus
+  5-  0:	utexb3016_scaffold_19_g17.t1	utexb3016_scaffold_19_g592.t1	  3e-07
+  5-  1:	utexb3016_scaffold_19_g29.t1	utexb3016_scaffold_19_g576.t1	  7e-35
+  5-  2:	utexb3016_scaffold_19_g31.t1	utexb3016_scaffold_19_g570.t1	  7e-10
+  5-  3:	utexb3016_scaffold_19_g39.t1	utexb3016_scaffold_19_g566.t1	  4e-14
+  5-  4:	utexb3016_scaffold_19_g46.t1	utexb3016_scaffold_19_g564.t1	  1e-07
+  5-  5:	utexb3016_scaffold_19_g51.t1	utexb3016_scaffold_19_g544.t1	  4e-20
+  5-  6:	utexb3016_scaffold_19_g65.t1	utexb3016_scaffold_19_g520.t1	  5e-35
+## Alignment 6: score=259.0 e_value=1e-09 N=6 scaffold_22&scaffold_22 plus
+  6-  0:	utexb3016_scaffold_22_g478.t1	utexb3016_scaffold_22_g641.t1	  1e-96
+  6-  1:	utexb3016_scaffold_22_g479.t1	utexb3016_scaffold_22_g642.t1	  7e-69
+  6-  2:	utexb3016_scaffold_22_g480.t1	utexb3016_scaffold_22_g643.t1	  2e-85
+  6-  3:	utexb3016_scaffold_22_g481.t1	utexb3016_scaffold_22_g644.t1	  3e-86
+  6-  4:	utexb3016_scaffold_22_g507.t1	utexb3016_scaffold_22_g653.t1	  2e-22
+  6-  5:	utexb3016_scaffold_22_g524.t1	utexb3016_scaffold_22_g669.t1	  3e-21
+## Alignment 7: score=447.0 e_value=1.9e-24 N=10 scaffold_22&scaffold_22 minus
+  7-  0:	utexb3016_scaffold_22_g577.t1	utexb3016_scaffold_22_g669.t1	  1e-25
+  7-  1:	utexb3016_scaffold_22_g597.t1	utexb3016_scaffold_22_g666.t1	  1e-96
+  7-  2:	utexb3016_scaffold_22_g598.t1	utexb3016_scaffold_22_g665.t1	  7e-69
+  7-  3:	utexb3016_scaffold_22_g599.t1	utexb3016_scaffold_22_g664.t1	  8e-85
+  7-  4:	utexb3016_scaffold_22_g600.t1	utexb3016_scaffold_22_g663.t1	  3e-86
+  7-  5:	utexb3016_scaffold_22_g610.t1	utexb3016_scaffold_22_g644.t1	  3e-86
+  7-  6:	utexb3016_scaffold_22_g611.t1	utexb3016_scaffold_22_g643.t1	  2e-85
+  7-  7:	utexb3016_scaffold_22_g612.t1	utexb3016_scaffold_22_g642.t1	  7e-69
+  7-  8:	utexb3016_scaffold_22_g613.t1	utexb3016_scaffold_22_g641.t1	  1e-96
+  7-  9:	utexb3016_scaffold_22_g620.t1	utexb3016_scaffold_22_g624.t1	  7e-33
+## Alignment 8: score=405.0 e_value=8.4e-21 N=9 scaffold_22&scaffold_22 minus
+  8-  0:	utexb3016_scaffold_22_g554.t1	utexb3016_scaffold_22_g644.t1	  3e-86
+  8-  1:	utexb3016_scaffold_22_g555.t1	utexb3016_scaffold_22_g643.t1	  2e-85
+  8-  2:	utexb3016_scaffold_22_g556.t1	utexb3016_scaffold_22_g642.t1	  7e-69
+  8-  3:	utexb3016_scaffold_22_g557.t1	utexb3016_scaffold_22_g641.t1	  1e-96
+  8-  4:	utexb3016_scaffold_22_g571.t1	utexb3016_scaffold_22_g620.t1	  1e-28
+  8-  5:	utexb3016_scaffold_22_g597.t1	utexb3016_scaffold_22_g613.t1	  1e-96
+  8-  6:	utexb3016_scaffold_22_g598.t1	utexb3016_scaffold_22_g612.t1	  7e-69
+  8-  7:	utexb3016_scaffold_22_g599.t1	utexb3016_scaffold_22_g611.t1	  2e-85
+  8-  8:	utexb3016_scaffold_22_g600.t1	utexb3016_scaffold_22_g610.t1	  3e-86
+## Alignment 9: score=582.0 e_value=6.1e-22 N=14 scaffold_22&scaffold_9 plus
+  9-  0:	utexb3016_scaffold_22_g554.t1	utexb3016_scaffold_9_g311.t1	  3e-86
+  9-  1:	utexb3016_scaffold_22_g555.t1	utexb3016_scaffold_9_g312.t1	  2e-85
+  9-  2:	utexb3016_scaffold_22_g556.t1	utexb3016_scaffold_9_g331.t1	  7e-69
+  9-  3:	utexb3016_scaffold_22_g557.t1	utexb3016_scaffold_9_g332.t1	  1e-96
+  9-  4:	utexb3016_scaffold_22_g577.t1	utexb3016_scaffold_9_g342.t1	  1e-64
+  9-  5:	utexb3016_scaffold_22_g597.t1	utexb3016_scaffold_9_g345.t1	  1e-96
+  9-  6:	utexb3016_scaffold_22_g598.t1	utexb3016_scaffold_9_g346.t1	  7e-69
+  9-  7:	utexb3016_scaffold_22_g599.t1	utexb3016_scaffold_9_g347.t1	  2e-85
+  9-  8:	utexb3016_scaffold_22_g600.t1	utexb3016_scaffold_9_g348.t1	  3e-86
+  9-  9:	utexb3016_scaffold_22_g620.t1	utexb3016_scaffold_9_g370.t1	  1e-41
+  9- 10:	utexb3016_scaffold_22_g641.t1	utexb3016_scaffold_9_g384.t1	  1e-96
+  9- 11:	utexb3016_scaffold_22_g643.t1	utexb3016_scaffold_9_g386.t1	  2e-85
+  9- 12:	utexb3016_scaffold_22_g644.t1	utexb3016_scaffold_9_g387.t1	  3e-86
+  9- 13:	utexb3016_scaffold_22_g665.t1	utexb3016_scaffold_9_g392.t1	  7e-69
+## Alignment 10: score=447.0 e_value=3.6e-18 N=10 scaffold_22&scaffold_9 plus
+ 10-  0:	utexb3016_scaffold_22_g610.t1	utexb3016_scaffold_9_g311.t1	  3e-86
+ 10-  1:	utexb3016_scaffold_22_g611.t1	utexb3016_scaffold_9_g312.t1	  2e-85
+ 10-  2:	utexb3016_scaffold_22_g612.t1	utexb3016_scaffold_9_g313.t1	  7e-69
+ 10-  3:	utexb3016_scaffold_22_g613.t1	utexb3016_scaffold_9_g314.t1	  8e-93
+ 10-  4:	utexb3016_scaffold_22_g618.t1	utexb3016_scaffold_9_g319.t1	  2e-09
+ 10-  5:	utexb3016_scaffold_22_g641.t1	utexb3016_scaffold_9_g345.t1	  1e-96
+ 10-  6:	utexb3016_scaffold_22_g642.t1	utexb3016_scaffold_9_g346.t1	  7e-69
+ 10-  7:	utexb3016_scaffold_22_g643.t1	utexb3016_scaffold_9_g347.t1	  2e-85
+ 10-  8:	utexb3016_scaffold_22_g644.t1	utexb3016_scaffold_9_g348.t1	  3e-86
+ 10-  9:	utexb3016_scaffold_22_g669.t1	utexb3016_scaffold_9_g370.t1	  1e-11
+## Alignment 11: score=272.0 e_value=1.2e-06 N=6 scaffold_22&scaffold_9 plus
+ 11-  0:	utexb3016_scaffold_22_g643.t1	utexb3016_scaffold_9_g312.t1	  2e-85
+ 11-  1:	utexb3016_scaffold_22_g659.t1	utexb3016_scaffold_9_g328.t1	  5e-09
+ 11-  2:	utexb3016_scaffold_22_g663.t1	utexb3016_scaffold_9_g330.t1	  3e-86
+ 11-  3:	utexb3016_scaffold_22_g665.t1	utexb3016_scaffold_9_g331.t1	  7e-69
+ 11-  4:	utexb3016_scaffold_22_g666.t1	utexb3016_scaffold_9_g332.t1	  1e-96
+ 11-  5:	utexb3016_scaffold_22_g669.t1	utexb3016_scaffold_9_g342.t1	  3e-10
+## Alignment 12: score=377.0 e_value=6.5e-18 N=9 scaffold_22&scaffold_9 minus
+ 12-  0:	utexb3016_scaffold_22_g537.t1	utexb3016_scaffold_9_g357.t1	  3e-74
+ 12-  1:	utexb3016_scaffold_22_g554.t1	utexb3016_scaffold_9_g348.t1	  3e-86
+ 12-  2:	utexb3016_scaffold_22_g555.t1	utexb3016_scaffold_9_g347.t1	  2e-85
+ 12-  3:	utexb3016_scaffold_22_g556.t1	utexb3016_scaffold_9_g346.t1	  7e-69
+ 12-  4:	utexb3016_scaffold_22_g571.t1	utexb3016_scaffold_9_g342.t1	  4e-08
+ 12-  5:	utexb3016_scaffold_22_g597.t1	utexb3016_scaffold_9_g332.t1	  1e-96
+ 12-  6:	utexb3016_scaffold_22_g598.t1	utexb3016_scaffold_9_g313.t1	  7e-69
+ 12-  7:	utexb3016_scaffold_22_g599.t1	utexb3016_scaffold_9_g312.t1	  2e-85
+ 12-  8:	utexb3016_scaffold_22_g600.t1	utexb3016_scaffold_9_g311.t1	  3e-86
+## Alignment 13: score=253.0 e_value=3.4e-07 N=6 scaffold_22&scaffold_9 minus
+ 13-  0:	utexb3016_scaffold_22_g525.t1	utexb3016_scaffold_9_g413.t1	  4e-10
+ 13-  1:	utexb3016_scaffold_22_g537.t1	utexb3016_scaffold_9_g395.t1	  3e-58
+ 13-  2:	utexb3016_scaffold_22_g554.t1	utexb3016_scaffold_9_g387.t1	  3e-86
+ 13-  3:	utexb3016_scaffold_22_g555.t1	utexb3016_scaffold_9_g386.t1	  2e-85
+ 13-  4:	utexb3016_scaffold_22_g557.t1	utexb3016_scaffold_9_g384.t1	  1e-96
+ 13-  5:	utexb3016_scaffold_22_g571.t1	utexb3016_scaffold_9_g370.t1	  1e-36

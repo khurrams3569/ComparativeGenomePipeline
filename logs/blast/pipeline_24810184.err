@@ -1,0 +1,3 @@
+sbatch: error: A valid partition name must be specified: [-p, --partition=<partition>]
+sbatch: error: Batch job submission failed: Unspecified error
+sbatch: error: Batch job submission failed: Job dependency problem
